@@ -1,3 +1,5 @@
+### Equality/Identity Matchers
+
 | Matcher |Description | Example |
 |---------|------------|---------|
 |eq       |Passes when actual == expected           |expect(actual).to eq expected |

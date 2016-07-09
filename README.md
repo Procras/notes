@@ -1,6 +1,11 @@
 # Notes
 That I gathered around or created myself.
 
+## Browsers
+
+##### Safari
+  * [Vimmy](https://github.com/ogirginc/Notes/tree/master/Browsers/Safari) - ([updated 09/07/2016](http://gggritso.com/Vimmy.safariextension/))
+
 ## Git
 [Quicknotes]()
 

@@ -25,4 +25,4 @@ That I gathered around or created myself.
 [Quicknotes]()
 
 ## Vim
-[Quicknotes]()
+[Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

@@ -26,4 +26,5 @@ That I gathered around or created myself.
 
 ## Vim
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)
-*[Autocomplete](https://github.com/ogirginc/Notes/tree/master/lib/Vim#autocomplete)
+
+* [Autocomplete](https://github.com/ogirginc/Notes/tree/master/lib/Vim#autocomplete)

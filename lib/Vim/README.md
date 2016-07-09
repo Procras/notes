@@ -1,3 +1,3 @@
-## Vim
+# Vim
 
-### [Autocomplete](https://github.com/ogirginc/Notes/blob/master/lib/Vim/autocomplete.md)
+* [Autocomplete](https://github.com/ogirginc/Notes/blob/master/lib/Vim/autocomplete.md)

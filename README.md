@@ -7,7 +7,6 @@ That I gathered around or created myself.
   * [Vimmy](https://github.com/ogirginc/Notes/blob/master/lib/Browsers/Safari/Vimmy.md) - ([updated 09/07/2016](http://gggritso.com/Vimmy.safariextension/))
 
 ## Git
-[Quicknotes]()
 
 ## Rspec
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/Notes)
@@ -18,13 +17,10 @@ That I gathered around or created myself.
   * [Matchers](https://github.com/ogirginc/Notes/blob/master/lib/Rspec/TutorialsPoint/Matchers.md)
 
 ## Ruby
-[Quicknotes]()
 
 ## Terminal
-[Quicknotes]()
 
 ## Tmux
-[Quicknotes]()
 
 ## Vim
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

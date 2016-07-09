@@ -2,6 +2,6 @@
 
 ###Rename a file
 
-Write the file while editing - `:w newname` - to create a copy.
+`:w newname` to create a copy with new name.
 
-Start editing the new copy - `:e#.`
+`:e#.` to start editing the new copy.

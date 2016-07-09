@@ -12,8 +12,10 @@ That I gathered around or created myself.
 ## Rspec
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/Notes)
 
-##### Others
-* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/TutorialsPoint) - (updated 09/07/2016)
+#### Others
+* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/TutorialsPoint)
+
+  * [Matchers](https://github.com/ogirginc/Notes/blob/master/lib/Rspec/TutorialsPoint/Matchers.md)
 
 ## Ruby
 [Quicknotes]()

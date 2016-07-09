@@ -4,7 +4,7 @@
 
 |Key|Description|
 |---|---|
-|`ctrl``P` | basic tab completion, pulling from a variety of sources|
-|`ctrl``N` | the same as ^P but backward|
-|`ctrl``X` `ctrl``L` |whole line completion|
-|`ctrl``X` `ctrl``O` |syntax-aware omnicompletion|
+|`ctrl``P` | Basic tab completion, pulling from a variety of sources |
+|`ctrl``N` | The same as `ctrl``P` but backward |
+|`ctrl``X` `ctrl``L` | Whole line completion |
+|`ctrl``X` `ctrl``O` | Syntax-aware omnicompletion |

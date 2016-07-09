@@ -12,6 +12,4 @@ That I gathered around or created myself.
 * [TutorialsPoint](https://github.com/ogirginc/Notes/blob/master/lib/Rspec/TutorialsPoint/README.md)
 
 ## Vim
-> **[Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)**
-
-* [Autocomplete](https://github.com/ogirginc/Notes/tree/master/lib/Vim#autocomplete)
+> **[Quicknotes](https://github.com/ogirginc/Notes/blob/master/lib/Vim/README.md)**

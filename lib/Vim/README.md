@@ -2,8 +2,8 @@
 
 ## General
 
-* [File Management](https://github.com/ogirginc/Notes/blob/master/lib/Vim/file-management.md)
+* [File Management](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/autocomplete.md)
 
 ## Insert Mode
 
-* [Autocomplete](https://github.com/ogirginc/Notes/blob/master/lib/Vim/autocomplete.md)
+* [Autocomplete](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/file-management.md)

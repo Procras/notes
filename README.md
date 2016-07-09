@@ -4,7 +4,7 @@
 [Quicknotes]()
 
 ## Rspec
-[Quicknotes]()
+[Quicknotes](https://github.com/ogirginc/Notes/blob/master/Rspec/Notes/README.)
 
 ##### Others
 * [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/Rspec/TutorialsPoint)

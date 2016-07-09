@@ -13,7 +13,7 @@ That I gathered around or created myself.
 [Quicknotes](https://github.com/ogirginc/Notes/blob/master/Rspec/Notes/README.)
 
 ##### Others
-* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/Rspec/TutorialsPoint)
+* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/Rspec/TutorialsPoint) -  - (updated 09/07/2016)
 
 ## Ruby
 [Quicknotes]()

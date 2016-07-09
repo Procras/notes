@@ -8,7 +8,7 @@ That I gathered around or created myself.
 
 ## Rspec
 
-* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/TutorialsPoint)
+* [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
 
 ## Vim
 > **[Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)**

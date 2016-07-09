@@ -9,7 +9,5 @@ That I gathered around or created myself.
 ## Rspec
   > **[Quicknotes](https://github.com/ogirginc/Notes/blob/master/lib/Rspec/Quicknotes/README.md)**
 
-* [TutorialsPoint](https://github.com/ogirginc/Notes/blob/master/lib/Rspec/TutorialsPoint/README.md)
-
 ## Vim
-> **[Quicknotes](https://github.com/ogirginc/Notes/blob/master/lib/Vim/README.md)**
+ > **[Quicknotes](https://github.com/ogirginc/Notes/blob/master/lib/Vim/README.md)**

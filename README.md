@@ -1,4 +1,5 @@
 # Notes
+That I gathered around or created myself.
 
 ## Git
 [Quicknotes]()

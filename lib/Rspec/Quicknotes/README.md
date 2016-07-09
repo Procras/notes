@@ -1,0 +1,3 @@
+# Quicknotes
+
+* Output formatting

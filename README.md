@@ -6,18 +6,10 @@ That I gathered around or created myself.
 #### Safari
   * [Vimmy](https://github.com/ogirginc/Notes/blob/master/lib/Browsers/Safari/Vimmy.md) - ([updated 09/07/2016](http://gggritso.com/Vimmy.safariextension/))
 
-## Git
-
 ## Rspec
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/Notes)
 
 * [TutorialsPoint](https://github.com/ogirginc/Notes/tree/master/lib/Rspec/TutorialsPoint)
-
-## Ruby
-
-## Terminal
-
-## Tmux
 
 ## Vim
 [Quicknotes](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

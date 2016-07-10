@@ -38,4 +38,30 @@ Every object is 'born' with certain innate abilities. To see a list of innate me
 
 `respond_to?` method exist for all objects; you can ask any object whether it responds to any message.
 
-`respond_to?` is an ecample of *introspection* or *reflection*, two terms that refer to ecamining the state of a program while it's running.
+`respond_to?` is an ecample of *introspection* or *reflection*, two terms that refer to examining the state of a program while it's running.
+
+#### 2.3.3) Sending messages to objects with the send method
+
+```
+print 'Info desired:'
+request = gets.chomp
+
+if request == 'venue'
+  puts ticket.venue
+if request == 'performer'
+  puts ticket.performer
+...
+```
+
+Alternatively; you can send the word directly to the `ticket` object.
+
+```
+if ticket.respond_to?(request)
+  puts ticket.send(request)
+else
+  puts 'No info available'
+end
+```
+
+# p.48
+### 2.4) A close look at method arguments

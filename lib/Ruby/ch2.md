@@ -1,4 +1,4 @@
-## 2) Objects, methods and local variables
+# 2) Objects, methods and local variables
 
 ### 2.1) Talking to objects
 

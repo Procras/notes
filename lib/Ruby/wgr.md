@@ -23,3 +23,19 @@ Every method call is an expression. When you call a method, the method call eval
 #### 2.2.4) Expressing Boolean state in a method
 
 Every expression in Ruby ecaluates to an object, and every object in Ruby has a truth value. The truth value of almost every object in Ruby is `true`. The only onjects whose truth value (or Boolean value) is `false` are the object `false` and the special nonentity `nil`.
+
+In case where the `puts` happens, the whole ecpression evaluates to `nil`-because the return value of `puts` is always `nil`. Remembering that `nil` has a Boolean value of `false`, you can get into acrobatics with irb. If you put `puts` in an `if` clause, the clause will be false, but it will still be evaluated.
+
+### 2.3) The innate behaviours of an object
+
+Every object is 'born' with certain innate abilities. To see a list of innate methods, yuo can call the `methods` method.
+
+#### 2.3.1) Identifying objects uniquely with the `object_id` method
+
+* `.object_id`
+ 
+#### 2.3.2) Querying an object's abilities with `respond_to?` method
+
+`respond_to?` method exist for all objects; you can ask any object whether it responds to any message.
+
+`respond_to?` is an ecample of *introspection* or *reflection*, two terms that refer to ecamining the state of a program while it's running.

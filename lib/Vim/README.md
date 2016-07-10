@@ -8,6 +8,6 @@
 
 * [Autocomplete](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/autocomplete.md)
 
-## Mode
+## Visual Block Mode
 
 * [Commenting](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/comment.md)

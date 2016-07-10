@@ -65,3 +65,31 @@ end
 
 # p.48
 ### 2.4) A close look at method arguments
+
+#### 2.5.4) Local variables and the things that look like them
+
+When Ruby sees a plain word sittin there -a bareword identifier, like `s`, `ticket`, `puts` or `user_name`- it interprets it as one of three things:
+
+* A local variable
+* A keyword
+* A method call
+ 
+*Keywords* are special reserverd words that you can't use as variable names.
+
+Like local variables, method calls can be plain words. If the method call inclueds arguments in parentheses -or even empty parentheses- then it's clear that it's not a local variable. In other cases, there may be some ambigiuty, and Ruby has to figure it out.
+
+ Here's how Ruby decides what it's seeing when it encounters a plain identifier:
+ 
+ 1. If the identifier is a keyword, it's a keyword (Ruby has an internal list of these and recognizes them).
+ 2. If there's an equal sign (=) to the right of the identifier, it's a local variable undergoing an assigment.
+ 3. Otherwise, the identifiers is assumed to be a method call.
+
+ 
+If you use an identifier that isn't any of there three things, then RUby will pomplain and halt executuon with fatal error. The error message you get when this happens is instructive:
+
+```
+$ ruby -e "x"
+-e:1:in `<main>`: undefined local variable or method 'x' for main:Object (NameError)
+```
+
+Note that Ruby can't tell whether you thought x was a variable or a method. It knows that x isn't a keyword, but it could be either of the other two. So the error message includes both.

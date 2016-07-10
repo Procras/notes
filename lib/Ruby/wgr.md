@@ -10,8 +10,6 @@ In object-oriented programming (OOP), you perform calculations, data manipulatio
 
 In most object-oriented languages, including Ruby, every objectos an example or instance of a particular class, and the behaviour of individual objects is determined at least to some extent by the method definitions present in the object's class.
 
-#### 2.1.2) Creating a generic object
-
 #### 2.1.3) Methods that take arguments
 
 The variables listed in the method definition are the method's *formal parameters*, and values you supply to the method when you call it are the correspondint *arguments*. (It's comman to use the workd *arguments*, indormally, to refer to a method's parameters as well as a method call's arguments, but it's usefull to know the technical distinction.)

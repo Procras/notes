@@ -8,11 +8,7 @@ That I gathered around or created myself.
 
 ### [Ruby](https://github.com/ogirginc/Notes/tree/master/lib/Ruby)
 
-* TDD & BDD
- 
-  * [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
-  
-
+ * [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
 
 ## Terminal & Text Editor
 

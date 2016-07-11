@@ -3,6 +3,7 @@ That I gathered around or created myself.
 
 ### [Browsers](https://github.com/ogirginc/Notes/tree/master/lib/Browsers)
 
+### [Security](https://github.com/ogirginc/Notes/tree/master/lib/Security)
 
 ## Programming Languages
 

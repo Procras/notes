@@ -1,4 +1,4 @@
-# Create A Gemfile
+# Create a Gemfile
 
 If Bundler is installed:
 

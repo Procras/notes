@@ -1,6 +1,6 @@
 # Notes
 
-### Blogs
+## Blogs
 
 #### GPG
 

@@ -6,12 +6,14 @@ That I gathered around or created myself.
 
 ## Programming Languages
 
-[Ruby](https://github.com/ogirginc/Notes/tree/master/lib/Ruby)
+##### [Ruby](https://github.com/ogirginc/Notes/tree/master/lib/Ruby)
+
+* TDD & BDD
+ 
+  * [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
+  
+
 
 ## Terminal & Text Editor
 
-[Vim](https://github.com/ogirginc/Notes/tree/master/lib/Vim)
-
-## Tests
-
-[Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
+##### [Vim](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

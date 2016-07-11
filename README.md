@@ -1,12 +1,10 @@
 # Notes
 That I gathered around or created myself.
 
-## Browsers
+#### [Browsers](https://github.com/ogirginc/Notes/tree/master/lib/Browsers)
 
-#### Safari
-  * [Vimmy](https://github.com/ogirginc/Notes/blob/master/lib/Browsers/Safari/Vimmy.md)
+#### [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
 
-## [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
+#### [Ruby](https://github.com/ogirginc/Notes/tree/master/lib/Ruby)
 
-## Vim
- > **[Quicknotes](https://github.com/ogirginc/Notes/blob/master/lib/Vim/README.md)**
+#### [Vim](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

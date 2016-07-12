@@ -1,4 +1,4 @@
-# Notes
+# Gems
 
 * [How to create a Gemfile](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Gem/create-gemfile.md)
 

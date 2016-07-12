@@ -1,4 +1,4 @@
-### Predicate Methods
+# Predicate Methods
 
 A method that returns true or false is called a "predicate method".
 

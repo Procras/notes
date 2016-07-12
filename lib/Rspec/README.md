@@ -8,7 +8,7 @@
   * [RSpec Subject, Helpers, Hooks and Exception Handling](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling)
   * [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)
 
-### Documentaions
+### Documentations
 
 * [Better Specs](http://betterspecs.org/)
 * [Rspec Matchers](http://cheatrags.com/rspec-matchers)

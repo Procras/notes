@@ -1,6 +1,14 @@
 # Ruby
 
+### Encapsulation
+
+* [Why you should care about encapsulation](http://gmoeck.github.io/2011/09/20/why-you-should-care-about-encapsulation.html)
+
 ### [Gems](https://github.com/ogirginc/Notes/tree/master/lib/Ruby/Gem)
+
+### Logic
+
+* [Prefer Guard Clauses Over Nested Conditionals](http://www.thechrisoshow.com/2009/02/16/using-guard-clauses-in-your-ruby-code/)
 
 ### Methods
 

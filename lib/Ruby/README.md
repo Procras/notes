@@ -8,4 +8,4 @@
 
 ### Pry
 
-* [Edit file in Pry](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Pry.md)
+* [Edit file in Pry](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Pry/README.md#edit-file-in-pry)

@@ -4,7 +4,7 @@ If Bundler is installed:
 
 1. Use Bundler to create a Gemfile: `bundle init`
 
-2. Add Ruby version: `ruby '2.2.3'`
+2. Add Ruby version: `ruby 'x.x.x'`
 
 3. Add names of Gems: `gem "rspec"`
 

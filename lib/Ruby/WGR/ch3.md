@@ -120,3 +120,7 @@ The elements that start with colons (:`venue`,and so on) are *symbols*. Symbols 
 | `attr_reader` | Creates a reader method | `attr_reader :venue` | `def venue; @venue; end` |
 | `attr_writer` | Creates a writer method | `attr_write :price` | `def price=(price); @price = price; end` |
 | `attr_accessor` | Creates reader and writer methods | `attr_accessor :price` | `def price=(price); @price = price; end` `def price; @price; end` |
+
+### 3.5) Inheritance and the Ruby class hierarchy
+
+

@@ -97,9 +97,9 @@ end
 
 ### 3.4) Attributes and the attr_* method family
 
-An *attribute* is a property of an object whose value can be read and/or written through the objcet. In the case of ticket object, we'd say that each ticket has a `price` attribute as well as a `date` attribute and a `venue` attribute. Our `price=` method can be described as an *attribute write* method. `date`, `venue` and `price` (without the wqual sign) are *attribute reaser* methods, (The write/read terminology is equivalent to the set/get terminalogy used earlier, but the write/read is more common in Ruby discussions.)
+An *attribute* is a property of an object whose value can be read and/or written through the object. In the case of ticket object, we'd say that each ticket has a `price` attribute as well as a `date` attribute and a `venue` attribute. Our `price=` method can be described as an *attribute write* method. `date`, `venue` and `price` (without the equal sign) are *attribute reader* methods. (The write/read terminology is equivalent to the set/get terminalogy used earlier, but the write/read is more common in Ruby discussions.)
 
-The attributes of Ruby objects are impletemented as reaser and/or write methods wrapped around instance variables -or, if you prefer, instance variables wrapped up in reader and/or writer methods. There's no separate "attribute" construct at the language level. *Attribute* is a high-level term for a particular configuration of methods and instance variables. But it's a useful term, and Ruby does embed the concept of attributes in the language, in the form of shortcuts that help you write methods that implement them.
+The attributes of Ruby objects are implemented as reader and/or write methods wrapped around instance variables -or, if you prefer, instance variables wrapped up in reader and/or writer methods. There's no separate "attribute" construct at the language level. *Attribute* is a high-level term for a particular configuration of methods and instance variables. But it's a useful term, and Ruby does embed the concept of attributes in the language, in the form of shortcuts that help you write methods that implement them.
 
 Ruby provides a built-in shortcut that automatically creates a method that reads and returns the value of the instance variable with the same name as the method (give or take an @):
 
@@ -112,10 +112,11 @@ end
 The elements that start with colons (:`venue`,and so on) are *symbols*. Symbols are a kind of naming or labeling facility. They're cousin of strings, although not quite the same thing,
 
 > `self` as default receiver
-> You're seeing more method calles without an explicit receiver; there's no left-hand object and nodor in `attr_reader`, for example. In the absence of an explicit receiver, messages go to `self` the default object. In the yopmost level of a class definition bady, `self` is the class object itself. So the object receiveing the `attr_reade` message is the actual class object `Ticket`.
+>
+> You're seeing more method calls without an explicit receiver; there's no left-hand object and no dot in `attr_reader`, for example. In the absence of an explicit receiver, messages go to `self` the default object. In the topmost level of a class definition body, `self` is the class object itself. So the object receiving the `attr_reader` message is the actual class object `Ticket`.
 
 | Method name | Effect | Example | Rquivalent code |
 |-------------|--------|---------|-----------------|
 | `attr_reader` | Creates a reader method | `attr_reader :venue` | `def venue; @venue; end` |
 | `attr_writer` | Creates a writer method | `attr_write :price` | `def price=(price); @price = price; end` |
-| `attr_accessor` | Creates reaser and writer methods | `attr_accessor :price` | `def price=(price); @price = price; end` `def price; @price; end` |
+| `attr_accessor` | Creates reader and writer methods | `attr_accessor :price` | `def price=(price); @price = price; end` `def price; @price; end` |

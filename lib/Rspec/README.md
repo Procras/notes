@@ -12,11 +12,12 @@
 
 * [Better Specs](http://betterspecs.org/)
 * [Rspec Matchers](http://cheatrags.com/rspec-matchers)
-* 
+
 
 ### Stackoverflow
 
 * [{} vs ()](http://stackoverflow.com/questions/21567838/when-to-use-curly-braces-vs-parenthesis-in-expect-rspec-method)
+* [When to use `let`](http://stackoverflow.com/questions/5359558/when-to-use-rspec-let)
 
 -
 

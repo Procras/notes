@@ -7,6 +7,8 @@
   * [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
   * [RSpec Subject, Helpers, Hooks and Exception Handling](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling)
   * [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)
+* ThoughtBot
+  * [My Issues with `let`](https://robots.thoughtbot.com/my-issues-with-let)
 * [TutorialsPoint](http://www.tutorialspoint.com/rspec/index.htm)
 
 ### Documentations

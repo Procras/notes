@@ -1,5 +1,9 @@
 # Ruby
 
+### Dependency Injection
+
+* [The World Needs Another Post About Dependency Injection in Ruby](http://solnic.eu/2013/12/17/the-world-needs-another-post-about-dependency-injection-in-ruby.html)
+
 ### Encapsulation
 
 * [Why you should care about encapsulation](http://gmoeck.github.io/2011/09/20/why-you-should-care-about-encapsulation.html)

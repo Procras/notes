@@ -1,15 +1,13 @@
-# Fundamentals of TDD
+# [Fundamentals of TDD](https://thoughtbot.com/upcase/videos/fundamentals-of-tdd-overview)
 
-https://thoughtbot.com/upcase/videos/fundamentals-of-tdd-overview
+1. Red-Green-Refactor
+2. Telling a Story with Your Tests
 
 Test-Driven Development is a development technique where you write a failing test and then create code to make that test pass. This process is sometimes called a red-green-refactor cycle with the failing tests being the "red" state, passing tests being the "green" state, and the refactoring step occurring after tests pass, where code can be confidently improved.
 
 The practice of Test-Driven Development over time generates a growing suite of tests that can serve as protection against a regression (the breaking of a previously working feature). Testing first also puts positive design pressure on code, as it influences code to be written to solve the problem at hand (and not to tackle other future problems that may be out of scope, but are tempting to try to solve now). In this way, TDD acts as a workflow hack, promoting incremental, steady progress toward delivery.
 
 There are perceptions that testing is time-consuming, and reduces efficiency, as the writing and maintenance of testing occupies time that could be spent writing new features. While testing does require time to do well, as an code base gets larger and larger, the benefits of being able to quickly and accurately validate that the functionality does what is intended grow.
-
-1. Red-Green-Refactor
-2. Telling a Story with Your Tests
 
 ## Red-Green-Refactor
 

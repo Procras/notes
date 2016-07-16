@@ -229,4 +229,5 @@ Here basic Ruby methods rather than the RSpec DSL allow for clear declaration of
 # Additional Resources
 
 [XUnitPatterns.com](http://xunitpatterns.com) - xUnit Test Patterns: Refactoring Test Code
+
 [Let's Not](https://robots.thoughtbot.com/lets-not) - A Giant Robots post about mystery guests

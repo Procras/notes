@@ -17,6 +17,3 @@
 ### Pry
 
 * [Edit file in Pry](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Pry/README.md#edit-file-in-pry)
-
-
-https://www.dropbox.com/home/developer/media/Upcase/114-%20Ruby%20Keyword%20Arguments?preview=114-+Ruby+Keyword+Arguments.mp4

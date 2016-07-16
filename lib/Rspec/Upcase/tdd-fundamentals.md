@@ -1,7 +1,31 @@
 # [Fundamentals of TDD](https://thoughtbot.com/upcase/videos/fundamentals-of-tdd-overview)
 
 1. [Red-Green-Refactor](#red-green-refactor)
-2. Telling a Story with Your Tests
+  * Writing the First Test
+  * Our First Error: Red
+  * Tests Pass: Green
+  * Implementing the Next Feature: Factorial
+  * Refactoring
+2. [Telling a Story with Your Tests](#telling-a-story-with-your-tests)
+  * Four Phases of Testing
+  * Test Phases in Action
+  * Before, Let, and Mystery Guests
+3. [Introducing the Unit Converter](#introducing-the-unit-converter)
+  * Getting Started
+  * Isolating An Example
+  * Changing the Converter with Tests
+  * Don't Test Private Methods!
+4. [Refactoring with Test Coverage](#refactoring-with-test-coverage)
+  * Fixing a Bug
+  * Trust Me, I'm a Programmer
+  * Refactored With Confidence
+5. [Integration vs. Unit Tests](#integration-vs-unit-tests)
+  * Integration Tests Are Important
+  * Implementing an Integration Test
+  * Avoid Mocking In Integration Tests
+  * Adding Data And Avoiding Side Effects
+6. [Going Further with TDD](#going-further-with-tdd)
+
 
 Test-Driven Development is a development technique where you write a failing test and then create code to make that test pass. This process is sometimes called a red-green-refactor cycle with the failing tests being the "red" state, passing tests being the "green" state, and the refactoring step occurring after tests pass, where code can be confidently improved.
 
@@ -117,7 +141,7 @@ But there's another benefit: *tests are automated, living documentation!*
 
 Comments have a problem in that they may be outdated, which makes them worse than no comments at all if they say the wrong thing and inspire false confidence.
 
-###Four Phases of Testing
+### Four Phases of Testing
 
 Tests can tell a story. These stories have four acts, which in test parlance are "phases":
 

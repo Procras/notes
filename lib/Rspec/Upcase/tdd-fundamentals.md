@@ -313,6 +313,88 @@ When refactoring, after each small change, resist the temptation to write the co
 A good test suite gives you fantastic leverage when you want to perform a refactoring. With tests in place, you can make changes to your code with the assurance that your intended functionality continues to work after your work is completed, protecting against regressions. Without a test suite, refactorings are much riskier, as each change may introduce subtle bugs, particularly ones that have already been fixed in previous revisions.
 
 
+## Integration vs. Unit Tests
+
+https://thoughtbot.com/upcase/videos/integration-vs-unit-tests
+
+Unit tests exercise a single unit in your code. They test something discrete, such as a single class or a single method in the class. Larger applications and libraries will have more parts than can be effectively tested with a unit test. Tests that confirm that the different parts of your application are working together correctly are called integration test.
+
+### Integration Tests Are Important
+
+Integration and unit tests both serve an useful function for your code. Integration tests are particularly valuable, as they help confirm that the promised features of the application are working correctly for the user. Unit tests can potentially all be (correctly) passing, but if the interfaces between application pieces don't correctly mesh, an application could be broken or unusable.
+
+Starting your feature writing with integration tests has a second benefit: your integration tests can drive the writing of unit tests. As steps in your integration tests fail, that can point you toward the units that need to be built to build the feature. A collection of unit tests can't work in reverse and drive the creation of an integration tests.
+
+### Implementing an Integration Test
+
+`UnitConverter` has been broken into smaller parts, and now leverages a database to store conversion information. As a result, the converter depends on a `UnitDatabase`, which handles the work of maintaining and requesting conversion mappings. The unit tests for `UnitConverter` use a test double as a substitute for the database, keeping the test focused on the conversion logic. We need an integration test to confirm that the collaboration between `UnitConverter` and `UnitDatabase`.
+
+### Avoid Mocking In Integration Tests
+
+In unit tests for multi-class code, it's common to use test doubles to stand in for other classes and reduce the number of logic permutations that a collaborator might introduce to the system under test's (SUT) behavior. Test doubles can help make unit tests faster by avoiding interaction with slow operations such as a filesystem or database. In an integration test, it's often best to write tests that use actual collaborators and exercise them to ensure that the interfaces between components (the "glue" that holds them together) works as expected.
+
+Here's a test that uses all the collaborators to test the code as a whole:
+
+```ruby
+describe "integrating the database with the converter" do
+  def create_and_populate_database(filename)
+    db = UnitDatabase.new(filename)
+    db.clear_conversions
+    db.add_conversion(canonical_unit: :liter, unit: :cup, ratio: 4.22675)
+    db.add_conversion(canonical_unit: :liter, unit: :liter, ratio: 1)
+    db.add_conversion(canonical_unit: :liter, unit: :pint, ratio: 2.11338)
+    db.add_conversion(canonical_unit: :gram, unit: :gram, ratio: 1)
+    db.add_conversion(canonical_unit: :gram, unit: :kilogram, ratio: 1000)
+    db
+  end
+
+  it "converts between cups and pints through liters" do
+    database_filename = "test_db.sqlite"
+    db = create_and_populate_database(database_filename)
+    cups = Quantity.new(amount: 2, unit: :cup)
+    converter = UnitConverter.new(cups, :pint, db)
+
+    result = converter.convert
+
+    expect(result.amount).to be_within(0.001).of(1)
+    expect(result.unit).to eq(:pint)
+
+    # teardown!
+    file.delete(database_filename)
+  end
+end
+```
+
+### Adding Data And Avoiding Side Effects
+
+An integration test often requires adding data into the database or setting up other persistent state to set the stage for component interaction. It's important to ensure that your tests don't leave behind state that might break later tests (or test suite runs).
+
+One way of ensuring that tests get cleaned up is to use an `ensure` statement to execute the test teardown step.
+
+```ruby
+begin
+  result = converter.convert
+
+  expect(result.amount).to be_within(0.001).of(1)
+  expect(result.unit).to eq(:pint)
+ensure
+  File.delete(database_filename)
+end
+```
+
+This can get repetitive, and adds extra cognitive load when a reader is figuring out what the test is doing. A better approach would be to put the `ensure` statement in an `around` block:
+
+```ruby
+around do |example|
+  begin
+    example.run
+  ensure
+    file.delete(database_filename)
+  end
+end
+It may seem odd to recommend moving a test step out of an explicit execution to an implicit execution (and hence hide it from a reader's view), but cleanup is an implementation detail of your test suite that isn't critical for a user to consider when reading each individual test.
+```
+
 -
 
 ### Additional Resources

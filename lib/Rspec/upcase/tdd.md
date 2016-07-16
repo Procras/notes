@@ -226,7 +226,7 @@ Here basic Ruby methods rather than the RSpec DSL allow for clear declaration of
 
 -
 
-# Additional Resources
+### Additional Resources
 
 [XUnitPatterns.com](http://xunitpatterns.com) - xUnit Test Patterns: Refactoring Test Code
 

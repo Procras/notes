@@ -4,7 +4,9 @@
 
 * __Double__ (Mock)__:__ A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
  
-`new_car = double(Car.new)`
+```
+ruby new_car = double(Car.new)
+```
 
 ## M
 
@@ -21,8 +23,6 @@ end
 * __Stub:__ An instruction to an object to return a specific response to a method call.
 
 ```ruby
-allow(car).to receive(brake) #1
+allow(car).to receive(brake)
 
-allow(car).to
-  receive(brake).and_return('Slowing down') #2
 ```

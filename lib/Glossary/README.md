@@ -23,6 +23,6 @@ end
 * __Stub:__ An instruction to an object to return a specific response to a method call.
 
 ```ruby
-allow(car).to receive(brake)
+allow(car).to receive(brake).and_return('Slowing down')
 
 ```

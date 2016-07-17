@@ -3,6 +3,8 @@
 ## D
 
 * __Double__ (Mock)__:__ A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
+ 
+`new_car = double(Car.new)`
 
 ## M
 
@@ -17,3 +19,5 @@ end
 ## S
 
 * __Stub:__ An instruction to an object to return a specific response to a method call.
+
+`allow(car).to receive(brake)`

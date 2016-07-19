@@ -123,7 +123,7 @@ The elements that start with colons (:`venue`,and so on) are *symbols*. Symbols 
 
 ### 3.5) Inheritance and the Ruby class hierarchy
 
-*Inheritance* is a kind of downward-chaining relationship between two classes (the super-class and the subclass), whereby one class "inherits" from another and the instances of the subclass acquire the behviours -the methods- defined in the superclass.
+*Inheritance* is a kind of downward-chaining relationship between two classes (the superclass and the subclass), whereby one class "inherits" from another and the instances of the subclass acquire the behviours -the methods- defined in the superclass.
 
 ```ruby
 class Publication
@@ -156,3 +156,11 @@ puts davis.species #=> Home sapiens
 Objects get their behaviours from their class, from their individual or singleton methods, and also from the ancestors (superclass, super-superclass, and so on) of their classes.
 
 #### 3.5.1) Singe inheritamce: One to a customer
+
+Every Ruby class can have only one superclass, in keeping with the principle of *single inheritance*.
+
+Ruby provides *modules*, which are bundles of programming functionality similar to classes (except that they don't have instaces), that you can easily graft onto your class's family tree provide as many methods for your objects as you need.
+
+The single inheritance principle means that you can't just draw a big tree of entities and then translate the tree directly into a class hierarchy. Inheritance often functions more as a convenient wat to get two or more classes to share method definitions that as a definitive stateent of how real-word objects relate to each other in terms of generality and specificty. There's some of that involved; every class in Ruby, for example, ultumately descends (as subclass or sub-subclass, and so on) from the `Object` class ans obviously `Object` is a more general class than, say, `String` or `Ticket` But the single inheritance limitaion means that you can't bank on designing a hierarchy of class that cascase downward in strict tree-graph fashion.
+
+#### 3.5.2) Object ancestry and the not-so-missing link: The Object class

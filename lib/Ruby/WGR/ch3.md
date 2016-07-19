@@ -150,7 +150,7 @@ class Rubyist < Person
 end
 
 david = Rubyist.new
-puts davis.species #=> Home sapiens
+puts david.species #=> Home sapiens
 ```
 
 Objects get their behaviours from their class, from their individual or singleton methods, and also from the ancestors (superclass, super-superclass, and so on) of their classes.

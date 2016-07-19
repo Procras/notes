@@ -155,7 +155,7 @@ puts davis.species #=> Home sapiens
 
 Objects get their behaviours from their class, from their individual or singleton methods, and also from the ancestors (superclass, super-superclass, and so on) of their classes.
 
-#### 3.5.1) Singe inheritamce: One to a customer
+#### 3.5.1) Single inheritance: One to a customer
 
 Every Ruby class can have only one superclass, in keeping with the principle of *single inheritance*.
 

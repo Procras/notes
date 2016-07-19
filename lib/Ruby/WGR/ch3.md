@@ -123,4 +123,36 @@ The elements that start with colons (:`venue`,and so on) are *symbols*. Symbols 
 
 ### 3.5) Inheritance and the Ruby class hierarchy
 
+*Inheritance* is a kind of downward-chaining relationship between two classes (the super-class and the subclass), whereby one class "inherits" from another and the instances of the subclass acquire the behviours -the methods- defined in the superclass.
 
+```ruby
+class Publication
+  attr_accessor :publisher
+end
+
+class Magazine < Publication
+  attr_accessor :editor
+end
+```
+
+The `<` designates `Magazine` as a subclass of `Publicaton`. Because every publication object has `publisher` and `publisher=` methods (thanks to `attr_accessor :publisher`), every magazine object has those methods too.
+
+Any instance method you define in a given class can be called by instances of that class, and also by instances of any subclasses of that class:
+
+```ruby
+class Person 
+  def species
+    'Homo sapiens'
+  end
+end
+
+class Rubyist < Person
+end
+
+david = Rubyist.new
+puts davis.species #=> Home sapiens
+```
+
+Objects get their behaviours from their class, from their individual or singleton methods, and also from the ancestors (superclass, super-superclass, and so on) of their classes.
+
+#### 3.5.1) Singe inheritamce: One to a customer

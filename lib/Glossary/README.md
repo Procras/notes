@@ -2,7 +2,7 @@
 
 # D
 
-### Double(Mock)
+### Double (Mock)
 A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
  
 ```

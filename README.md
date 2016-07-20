@@ -13,4 +13,6 @@ That I gathered around or created myself.
 
 ### [Security](https://github.com/ogirginc/Notes/tree/master/lib/Security)
 
+### [Software Management](https://github.com/ogirginc/Notes/tree/master/lib/Management/Software)
+
 ### [Vim](https://github.com/ogirginc/Notes/tree/master/lib/Vim)

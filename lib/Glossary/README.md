@@ -2,7 +2,8 @@
 
 ## D
 
-* __Double__ (Mock)__:__ A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
+* ### Double(Mock)
+A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
  
 ```
 ruby new_car = double(Car.new)
@@ -10,7 +11,9 @@ ruby new_car = double(Car.new)
 
 ## M
 
-* __Memoization:__  If we already have a value for the instance variable, use it. If not, then go get a new value, and assign it to the instance variable.
+* ### Memoization
+
+If we already have a value for the instance variable, use it. If not, then go get a new value, and assign it to the instance variable.
   
 ```ruby
 def car

@@ -7,6 +7,8 @@ That I gathered around or created myself.
 
 ### [Glossary](https://github.com/ogirginc/Notes/blob/master/lib/Glossary)
 
+### [Papers](https://github.com/ogirginc/Notes/tree/master/lib/Papers)
+
 ### [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
 
 ### [Ruby](https://github.com/ogirginc/Notes/tree/master/lib/Ruby)

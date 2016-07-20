@@ -1,6 +1,6 @@
 # Glossary
 
-## D
+# D
 
 ### Double(Mock)
 A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
@@ -9,7 +9,7 @@ A simple object that's preprogrammed with expectations and responses as preparat
 ruby new_car = double(Car.new)
 ```
 
-## M
+# M
 
 ### Memoization
 If we already have a value for the instance variable, use it. If not, then go get a new value, and assign it to the instance variable.
@@ -20,7 +20,7 @@ def car
 end
 ```
 
-## S
+# S
 
 ### Spyies 
 They are like test doubles with a tape recorder turned on. They keep track for the messages that are received so that you can look back at the messages after the fact, in your expectations.

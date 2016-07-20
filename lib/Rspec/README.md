@@ -15,6 +15,7 @@
 
 * [Better Specs](http://betterspecs.org/)
 * [Rspec Matchers](http://cheatrags.com/rspec-matchers)
+* [Rspec Style Guide](https://github.com/reachlocal/rspec-style-guide)
 
 
 ### Stackoverflow

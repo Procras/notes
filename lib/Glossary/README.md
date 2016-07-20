@@ -1,5 +1,6 @@
 # Glossary
 
+<br>
 # D
 
 ### Double (Mock)
@@ -9,6 +10,7 @@ A simple object that's preprogrammed with expectations and responses as preparat
 ruby new_car = double(Car.new)
 ```
 
+<br>
 # M
 
 ### Memoization
@@ -20,6 +22,7 @@ def car
 end
 ```
 
+<br>
 # S
 
 ### Spyies 
@@ -30,5 +33,16 @@ An instruction to an object to return a specific response to a method call.
 
 ```ruby
 allow(car).to receive(brake).and_return('Slowing down')
+```
+
+<br>
+# U
+
+### User stories
+User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. They typically follow a simple template:
 
 ```
+As a <type of user>, I want <some goal> so that <some reason>.
+```
+
+User stories are often written on index cards or sticky notes, stored in a shoe box, and arranged on walls or tables to facilitate planning and discussion. As such, they strongly shift the focus from writing about features to discussing them. In fact, these discussions are more important than whatever text is written.

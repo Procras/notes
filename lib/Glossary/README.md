@@ -20,7 +20,8 @@ end
 
 ## S
 
-* __Spyies:__  They are like test doubles with a tape recorder turned on. They keep track for the messages that are received so that you can look back at the messages after the fact, in your expectations.
+#### Spyies:  
+They are like test doubles with a tape recorder turned on. They keep track for the messages that are received so that you can look back at the messages after the fact, in your expectations.
 
 * __Stub:__ An instruction to an object to return a specific response to a method call.
 

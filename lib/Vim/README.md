@@ -9,6 +9,7 @@
 ### Normal Mode
 
 * [Autoformat](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/autoformat.md)
+* [Surround](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/surround.md)
 
 ### Visual Block Mode
 

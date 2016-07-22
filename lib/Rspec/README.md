@@ -2,6 +2,7 @@
 
 ### Blogs
 
+* [Quick Walkthrough of RSpec Mocks](http://codetheory.in/quick-walkthrough-of-rspec-mocks-introduction-in-code/)
 * [Stubs, Mocks and Spies in RSpec](https://about.futurelearn.com/blog/stubs-mocks-spies-rspec/)
 * Semaphore
   * [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
@@ -10,6 +11,7 @@
 * ThoughtBot
   * [My Issues with `let`](https://robots.thoughtbot.com/my-issues-with-let)
 * [TutorialsPoint](http://www.tutorialspoint.com/rspec/index.htm)
+* [Verifying RSpec Test Doubles](http://techblog.thescore.com/2015/04/28/no-excuses-verifying-rspec-test-doubles/)
 
 ### Documentations
 

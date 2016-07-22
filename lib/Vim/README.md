@@ -14,3 +14,10 @@
 ### Visual Block Mode
 
 * [Commenting](https://github.com/ogirginc/Notes/blob/master/lib/Vim/Quicknotes/comment.md)
+
+-
+
+### Tutorials
+
+* [Typing.io](https://typing.io/lessons)
+* [A vim Tutorial and Primer](https://danielmiessler.com/study/vim/)

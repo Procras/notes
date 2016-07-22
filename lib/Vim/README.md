@@ -19,5 +19,5 @@
 
 ### Tutorials
 
-* [Typing.io](https://typing.io/lessons)
 * [A vim Tutorial and Primer](https://danielmiessler.com/study/vim/)
+* [Typing.io](https://typing.io/lessons)

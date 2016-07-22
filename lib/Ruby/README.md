@@ -21,3 +21,7 @@
 ### Pry
 
 * [Edit file in Pry](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Pry/README.md#edit-file-in-pry)
+
+### Singletons
+
+* [Singleton](https://sourcemaking.com/design_patterns/singleton)

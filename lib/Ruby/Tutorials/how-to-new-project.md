@@ -35,15 +35,16 @@ gem 'capybara'
     │   └── spec_helper.rb
     │   └── features/
     │   │   └── some_feature_spec.rb
-    │   │   └── some_more_feature_spec.rb
+    │   │   └── etc_spec.rb
     │
     │
     ├── view/
     │   └── index.erb
+    │   └── etc.erb
     │
     ├── lib/
     │   └── some_feature.rb
-    │   └── some_more_feature.rb
+    │   └── etc_feature.rb
     │
     ├── app.rb
     │

@@ -2,6 +2,7 @@
 
 ### Blogs
 
+* [Faster RSpec Regression Testing](http://techblog.thescore.com/2015/09/21/faster-rspec-regression-testing/)
 * [Quick Walkthrough of RSpec Mocks](http://codetheory.in/quick-walkthrough-of-rspec-mocks-introduction-in-code/)
 * [Stubs, Mocks and Spies in RSpec](https://about.futurelearn.com/blog/stubs-mocks-spies-rspec/)
 * Semaphore

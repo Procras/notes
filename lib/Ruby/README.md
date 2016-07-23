@@ -25,3 +25,7 @@
 ### Singletons
 
 * [Singleton](https://sourcemaking.com/design_patterns/singleton)
+ 
+### Tutorials
+
+* [How To Start A New Ruby Project?](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Tutorials/how-to-new-project.md)

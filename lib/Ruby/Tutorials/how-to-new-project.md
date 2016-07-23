@@ -37,6 +37,10 @@ gem 'capybara'
     │   │   └── some_feature_spec.rb
     │   │   └── some_more_feature_spec.rb
     │
+    │
+    ├── view/
+    │   └── index.erb
+    │
     ├── lib/
     │   └── some_feature.rb
     │   └── some_more_feature.rb

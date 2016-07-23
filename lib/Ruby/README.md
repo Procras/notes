@@ -22,6 +22,10 @@
 
 * [Edit file in Pry](https://github.com/ogirginc/Notes/blob/master/lib/Ruby/Pry/README.md#edit-file-in-pry)
 
+### Rack
+
+* [What is Rack, please?](http://southdesign.de/blog/rack.html)
+
 ### Singletons
 
 * [Singleton](https://sourcemaking.com/design_patterns/singleton)

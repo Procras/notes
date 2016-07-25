@@ -23,10 +23,16 @@ end
 ```
 
 <br>
-# n
+# N
 
 ### `psql`
 It is the interactive terminal for working with Postgres (similar to Ruby's irb).
+
+<br>
+# O
+
+### Object Relational Mapping
+ORM (O/RM or O/R mapping tool), in computer science, is a programming technique for converting data between incompatible type systems in object-oriented programming languages.
 
 <br>
 # S

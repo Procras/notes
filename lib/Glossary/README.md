@@ -23,6 +23,12 @@ end
 ```
 
 <br>
+# n
+
+### `psql`
+It is the interactive terminal for working with Postgres (similar to Ruby's irb).
+
+<br>
 # S
 
 ### Spyies 

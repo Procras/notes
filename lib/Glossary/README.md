@@ -12,6 +12,11 @@ A simple object that's preprogrammed with expectations and responses as preparat
 ```
 ruby new_car = double(Car.new)
 ```
+<br>
+# G
+
+### `GET`
+It is a HTTP protocol that is used to retrieve remote data.
 
 <br>
 # M
@@ -36,6 +41,12 @@ It is the interactive terminal for working with Postgres (similar to Ruby's irb)
 
 ### Object Relational Mapping
 ORM (O/RM or O/R mapping tool), in computer science, is a programming technique for converting data between incompatible type systems in object-oriented programming languages.
+
+<br>
+# P
+
+### `POST`
+It is a HTTP protocol that is used to insert/update remote data.
 
 <br>
 # S

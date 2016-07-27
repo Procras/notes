@@ -49,6 +49,12 @@ ORM (O/RM or O/R mapping tool), in computer science, is a programming technique 
 It is a HTTP protocol that is used to insert/update remote data.
 
 <br>
+# R
+
+### RTFM
+Read the fucking manual. 🙃
+
+<br>
 # S
 
 ### Spyies 

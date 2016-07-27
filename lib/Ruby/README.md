@@ -1,5 +1,9 @@
 # Ruby
 
+### Blocks
+
+* [The Ultimate Guide to Blocks, Procs & Lambdas](http://www.blackbytes.info/2016/02/ruby-procs-and-lambdas/)
+
 ### Dependency Injection
 
 * [The World Needs Another Post About Dependency Injection in Ruby](http://solnic.eu/2013/12/17/the-world-needs-another-post-about-dependency-injection-in-ruby.html)

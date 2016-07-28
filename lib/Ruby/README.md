@@ -4,6 +4,10 @@
 
 * [The Ultimate Guide to Blocks, Procs & Lambdas](http://www.blackbytes.info/2016/02/ruby-procs-and-lambdas/)
 
+### Bundler
+
+* [Unbundling Bundler: A Thorough Look at Bundler’s Utilities](https://www.sitepoint.com/unbundling-bundler-a-thorough-look-at-bundlers-utilities/)
+
 ### Dependency Injection
 
 * [The World Needs Another Post About Dependency Injection in Ruby](http://solnic.eu/2013/12/17/the-world-needs-another-post-about-dependency-injection-in-ruby.html)

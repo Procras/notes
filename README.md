@@ -1,5 +1,4 @@
 # Notes
-That I gathered around or created myself.
 
 ### [Browsers](https://github.com/ogirginc/Notes/tree/master/lib/Browsers)
 

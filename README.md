@@ -6,9 +6,9 @@
 
 ### [Glossary](https://github.com/ogirginc/Notes/blob/master/lib/Glossary)
 
-### [Papers](https://github.com/ogirginc/Notes/tree/master/lib/Papers)
+### [Internet Protocols](https://github.com/ogirginc/Notes/tree/master/lib/Internet-Protocols)
 
-### [Protocols](https://github.com/ogirginc/Notes/tree/master/lib/Protocols)
+### [Papers](https://github.com/ogirginc/Notes/tree/master/lib/Papers)
 
 ### [Rspec](https://github.com/ogirginc/Notes/tree/master/lib/Rspec)
 

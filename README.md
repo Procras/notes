@@ -6,7 +6,7 @@
 
 ### [Git](https://github.com/ogirginc/Notes/tree/master/lib/Git)
 
-### [Glossary](https://github.com/ogirginc/Notes/blob/master/lib/Glossary)
+### [Glossary](./lib/Glossary.md)
 
 ### [Internet Protocols](https://github.com/ogirginc/Notes/tree/master/lib/Internet-Protocols)
 

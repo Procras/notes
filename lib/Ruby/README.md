@@ -20,6 +20,8 @@
 
 ### Logic
 
+* [And/or vs &&/||](http://www.rubytapas.com/2013/08/15/episode-125-and-or/)
+
 * [Prefer Guard Clauses Over Nested Conditionals](http://www.thechrisoshow.com/2009/02/16/using-guard-clauses-in-your-ruby-code/)
 
 ### Methods

@@ -40,6 +40,10 @@
 
 * [What is Rack, please?](http://southdesign.de/blog/rack.html)
 
+### Rails
+
+* [How to Uninstall Rails](http://stackoverflow.com/questions/16909733/why-wont-rails-4-uninstall)
+
 ### Singletons
 
 * [Singleton](https://sourcemaking.com/design_patterns/singleton)

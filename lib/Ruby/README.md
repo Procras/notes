@@ -42,6 +42,7 @@
 
 ### Rails
 
+* [Creating staging and other environments in Rails](http://nts.strzibny.name/creating-staging-environments-in-rails/)
 * [How to Uninstall Rails](http://stackoverflow.com/questions/16909733/why-wont-rails-4-uninstall)
 
 ### Singletons

@@ -9,6 +9,7 @@
   * [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)
   * [RSpec Subject, Helpers, Hooks and Exception Handling](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling)
   * [Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)
+* [Spy vs Double vs Instance Double](http://www.ombulabs.com/blog/rspec/ruby/spy-vs-double-vs-instance-double.html)
 * ThoughtBot
   * [My Issues with `let`](https://robots.thoughtbot.com/my-issues-with-let)
 * [TutorialsPoint](http://www.tutorialspoint.com/rspec/index.htm)

@@ -78,3 +78,9 @@ As a <type of user>, I want <some goal> so that <some reason>.
 ```
 
 User stories are often written on index cards or sticky notes, stored in a shoe box, and arranged on walls or tables to facilitate planning and discussion. As such, they strongly shift the focus from writing about features to discussing them. In fact, these discussions are more important than whatever text is written.
+
+<br>
+# Y
+
+### YAGNI
+"You aren't gonna need it" is a principle of extreme programming (XP) that states a programmer should not add functionality until deemed necessary.

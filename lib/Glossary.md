@@ -90,6 +90,14 @@ An instruction to an object to return a specific response to a method call.
 ```ruby
 allow(car).to receive(brake).and_return('Slowing down')
 ```
+<br>
+# T
+
+### TRUE
+- **Tranparent:** The consequences of change should be obvious in the code that is changing and in distant code that relies upon it.
+- **Reasonable:** The cost of any change should be proportional to the benefits the change achieves.
+- **Usable:** Existing code should be usable in new and unexpected contexts.
+- **Exemplary:** The code itself should encourage those who change it to perpetuate these qualities.
 
 <br>
 # U

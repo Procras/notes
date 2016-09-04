@@ -13,10 +13,22 @@ A simple object that's preprogrammed with expectations and responses as preparat
 ruby new_car = double(Car.new)
 ```
 <br>
+# E
+
+### Encapsulation
+Encapsulation means that the internal representation of an object is hidden from the outside. Only the object can interact with its internal data. Public methods can be created to open a defined way to access the logic inside an object.
+
+<br>
 # G
 
 ### `GET`
 It is a HTTP protocol that is used to retrieve remote data.
+
+<br>
+# I
+
+### Inheritance
+Inheritance is a relation between two classes. A child class inherits all the features of its parent class. Methods from the parent can be overridden in the child and new logic can be added. However a certain form of multi-inheritance can be replicated through the use of modules as mix-ins.
 
 <br>
 # M

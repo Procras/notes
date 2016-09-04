@@ -74,6 +74,10 @@ Read the fucking manual. 🙃
 <br>
 # S
 
+### SLOC
+**S**ource **L**ines **O**f **C**ode (In the days of yore, programmers were
+sometimes judged by the number of lines of code they produced.
+
 ### SOLID
 The SOLID acronym, coined by Michael Feathers and popularized by Robert Martin, represents five of the most well known principles of object-oriented design: **S**ingle Responsibility, **O**pen-Closed, **L**iskov Substitution, **I**nterface Segregation, and **D**ependency Inversion.
 

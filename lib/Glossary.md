@@ -4,7 +4,7 @@
 # D
 
 ### Database Migration
-<abbr title='database'>Database</abbr> migration is the process of transferring data between storage types, formats, or computer systems. It is a key consideration for any system implementation, upgrade, or consolidation. Database migration is usually performed programmatically to achieve an automated migration, freeing up human resources from tedious tasks
+Database migration is the process of transferring data between storage types, formats, or computer systems. It is a key consideration for any system implementation, upgrade, or consolidation. Database migration is usually performed programmatically to achieve an automated migration, freeing up human resources from tedious tasks
 
 ### Double (Mock)
 A simple object that's preprogrammed with expectations and responses as preparation for the calls that it will receive.
